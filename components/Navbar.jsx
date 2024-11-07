@@ -199,6 +199,86 @@ export default function Navbar() {
           <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
         </div>     
         
+
+      </div>
+
+      <nav
+      className="relative bg-cover bg-center p-8 h-screen w-full "
+      style={{ backgroundImage: `url(${hostelImage.src})`, backgroundSize: 'cover', marginTop: '5vh' }}
+    >
+      {/* Overlay for better text visibility */}
+      <div className="absolute inset-0 bg-black opacity-50"></div>
+  
+      {/* Categories */}
+      <div className="relative z-10 text-center mt-12">
+        <h2 className="text-3xl text-gray-300 font-semibold">Categories</h2>
+        <div className="flex justify-center mt-6 space-x-8">
+          {/* Economy Hostel */}
+          <div className="p-6 rounded-lg  max-w-xs">
+            <img src={hostelImage} alt="" className="w-full h-48 object-cover rounded-lg" />
+            <h3 className="text-xl text-gray-300 font-semibold mt-4">Economy Hostel</h3>
+            <button className="bg-orange-500 text-white font-semibold px-6 py-2 rounded-full mt-4">View</button>
+          </div>
+
+          {/* Premium Economy Hostel */}
+          <div className="p-6 rounded-lg max-w-xs">
+            <img src={hostelImage} alt="" className="w-full h-48 object-cover rounded-lg" />
+            <h3 className="text-xl text-gray-300 font-semibold mt-4">Premium Economy Hostel</h3>
+            <button className="bg-orange-500 text-white font-semibold px-6 py-2 rounded-full mt-4">View</button>
+          </div>
+
+          {/* First Class Hostel */}
+          <div className="p-6 rounded-lg  max-w-xs">
+            <img src={hostelImage} alt="" className="w-full h-48 object-cover rounded-lg" />
+            <h3 className="text-xl text-gray-300 font-semibold mt-4">First Class Hostel</h3>
+            <button className="bg-orange-500 text-white font-semibold px-6 py-2 rounded-full mt-4">View</button>
+          </div>
+        </div>
+      </div>
+
+      {/* Search Bar */}
+      <div className="relative z-10 flex justify-center items-center" style={{ marginTop: '15vh' }}>
+        <div className="relative w-full max-w-5xl">
+          <input
+            type="text"
+            placeholder="Search Hostel | Location | University"
+            className="w-full px-12 py-4 rounded-full bg-white text-black focus:outline-none focus:ring-2 focus:ring-blue-500 text-lg"
+          />
+          <div className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-orange-500 p-4 rounded-full">
+            <AiOutlineSearch className="text-white text-2xl" />
+          </div>
+        </div>
+      </div>
+    </nav>
+      {/* Footer */}
+      <div className="bg-blue-900 text-gray-300 py-8 mt-16 w-full" style={{ marginTop: '-2vh' }}>
+        <div className="container mx-auto text-center">
+          <div className="flex flex-wrap justify-around text-lg">
+            <div className="mb-4">
+              <h4 className="font-bold mb-2">Visit All Our Socials</h4>
+              <div className="flex space-x-4 justify-center">
+                <span className="cursor-pointer">Facebook</span>
+                <span className="cursor-pointer">YouTube</span>
+                <span className="cursor-pointer">Instagram</span>
+                <span className="cursor-pointer">Twitter</span>
+                <span className="cursor-pointer">TikTok</span>
+              </div>
+            </div>
+            <div className="mb-4">
+              <h4 className="font-bold mb-2">Support</h4>
+              <ul>
+                <li className="cursor-pointer">Contact Us</li>
+                <li className="cursor-pointer">FAQ</li>
+              </ul>
+            </div>
+            <div className="mb-4">
+              <h4 className="font-bold mb-2">Hostel HUBGH</h4>
+              <p>We Care For Your Comfort</p>
+              <p>Email Us: HostelHUBGH@gmail.com</p>
+            </div>
+          </div>
+          <p className="text-center mt-4">Copyright © 2024 MGTECH SOLUTION. All rights reserved.</p>
+        </div>
       </div>
     </nav>
   );

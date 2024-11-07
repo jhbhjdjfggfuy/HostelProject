@@ -1,6 +1,6 @@
 import { AiOutlineHome, AiOutlineMail, AiOutlineInfoCircle, AiOutlineSearch } from 'react-icons/ai';
-import hostelImage from './hostel.jpg'; 
-import './input.css'
+import hostelImage from './hostel.jpg';
+import './input.css';
 
 export default function Navbar() {
   return (
@@ -54,6 +54,151 @@ export default function Navbar() {
       <div className="relative z-10 mt-8 text-center text-5xl text-gray-300">
         Find Your Preferred Hostel That Best Suits You Within 
         <h1 className="mt-4"> Accra</h1>    
+      </div>
+      
+      {/* Hostel Listing Section */}
+      <div className="relative z-10 mt-20 px-8 grid grid-cols-4 gap-8">
+        {/* Hostel Card */}
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="D:\HostelProject\components\hostel.jpg" alt="Hostel 1" className="w-full h-48 object-cover rounded-t-lg" />
+          <div className="mt-4 text-2xl font-semibold text-gray-800">Abeka, Accra</div>
+          <div className="text-gray-500">GoldStar Hostel</div>
+          <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="D:\HostelProject\components\HostelPic.png" alt="Hostel 2" className="w-full h-48 object-cover rounded-t-lg" />
+          <div className="mt-4 text-2xl font-semibold text-gray-800">Abeka, Accra</div>
+          <div className="text-gray-500">GoldStar Hostel</div>
+          <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="D:\HostelProject\components\HostelPic.png" alt="Hostel 3" className="w-full h-48 object-cover rounded-t-lg" />
+          <div className="mt-4 text-2xl font-semibold text-gray-800">Abeka, Accra</div>
+          <div className="text-gray-500">GoldStar Hostel</div>
+          <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="D:\HostelProject\components\HostelPic.png" alt="Hostel 4" className="w-full h-48 object-cover rounded-t-lg" />
+          <div className="mt-4 text-2xl font-semibold text-gray-800">Abeka, Accra</div>
+          <div className="text-gray-500">GoldStar Hostel</div>
+          <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="D:/HostelProject/components/HostelPic.png" alt="Hostel 5" className="w-full h-48 object-cover rounded-t-lg" />
+          <div className="mt-4 text-2xl font-semibold text-gray-800">Abeka, Accra</div>
+          <div className="text-gray-500">GoldStar Hostel</div>
+          <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="D:\HostelProject\components\HostelPic.png" alt="Hostel 6" className="w-full h-48 object-cover rounded-t-lg" />
+          <div className="mt-4 text-2xl font-semibold text-gray-800">Abeka, Accra</div>
+          <div className="text-gray-500">GoldStar Hostel</div>
+          <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="D:/HostelProject/components/HostelPic.png" alt="Hostel 7" className="w-full h-48 object-cover rounded-t-lg" />
+          <div className="mt-4 text-2xl font-semibold text-gray-800">Abeka, Accra</div>
+          <div className="text-gray-500">GoldStar Hostel</div>
+          <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="D:\HostelProject\components\HostelPic.png" alt="Hostel 8" className="w-full h-48 object-cover rounded-t-lg" />
+          <div className="mt-4 text-2xl font-semibold text-gray-800">Abeka, Accra</div>
+          <div className="text-gray-500">GoldStar Hostel</div>
+          <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="D:/HostelProject/components/HostelPic.png" alt="Hostel 9" className="w-full h-48 object-cover rounded-t-lg" />
+          <div className="mt-4 text-2xl font-semibold text-gray-800">Abeka, Accra</div>
+          <div className="text-gray-500">GoldStar Hostel</div>
+          <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="D:\HostelProject\components\HostelPic.png" alt="Hostel 10" className="w-full h-48 object-cover rounded-t-lg" />
+          <div className="mt-4 text-2xl font-semibold text-gray-800">Abeka, Accra</div>
+          <div className="text-gray-500">GoldStar Hostel</div>
+          <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="D:/HostelProject/components/HostelPic.png" alt="Hostel 11" className="w-full h-48 object-cover rounded-t-lg" />
+          <div className="mt-4 text-2xl font-semibold text-gray-800">Abeka, Accra</div>
+          <div className="text-gray-500">GoldStar Hostel</div>
+          <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="D:\HostelProject\components\HostelPic.png" alt="Hostel 12" className="w-full h-48 object-cover rounded-t-lg" />
+          <div className="mt-4 text-2xl font-semibold text-gray-800">Abeka, Accra</div>
+          <div className="text-gray-500">GoldStar Hostel</div>
+          <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="D:/HostelProject/components/HostelPic.png" alt="Hostel 13" className="w-full h-48 object-cover rounded-t-lg" />
+          <div className="mt-4 text-2xl font-semibold text-gray-800">Abeka, Accra</div>
+          <div className="text-gray-500">GoldStar Hostel</div>
+          <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="D:\HostelProject\components\HostelPic.png" alt="Hostel 14" className="w-full h-48 object-cover rounded-t-lg" />
+          <div className="mt-4 text-2xl font-semibold text-gray-800">Abeka, Accra</div>
+          <div className="text-gray-500">GoldStar Hostel</div>
+          <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="D:/HostelProject/components/HostelPic.png" alt="Hostel 15" className="w-full h-48 object-cover rounded-t-lg" />
+          <div className="mt-4 text-2xl font-semibold text-gray-800">Abeka, Accra</div>
+          <div className="text-gray-500">GoldStar Hostel</div>
+          <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="D:\HostelProject\components\HostelPic.png" alt="Hostel 16" className="w-full h-48 object-cover rounded-t-lg" />
+          <div className="mt-4 text-2xl font-semibold text-gray-800">Abeka, Accra</div>
+          <div className="text-gray-500">GoldStar Hostel</div>
+          <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="D:/HostelProject/components/HostelPic.png" alt="Hostel 17" className="w-full h-48 object-cover rounded-t-lg" />
+          <div className="mt-4 text-2xl font-semibold text-gray-800">Abeka, Accra</div>
+          <div className="text-gray-500">GoldStar Hostel</div>
+          <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="D:\HostelProject\components\HostelPic.png" alt="Hostel 18" className="w-full h-48 object-cover rounded-t-lg" />
+          <div className="mt-4 text-2xl font-semibold text-gray-800">Abeka, Accra</div>
+          <div className="text-gray-500">GoldStar Hostel</div>
+          <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
+        </div>
+        
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="D:\HostelProject\components\HostelPic.png" alt="Hostel 20" className="w-full h-48 object-cover rounded-t-lg" />
+          <div className="mt-4 text-2xl font-semibold text-gray-800">Abeka, Accra</div>
+          <div className="text-gray-500">GoldStar Hostel</div>
+          <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="D:\HostelProject\components\HostelPic.png" alt="Hostel 22" className="w-full h-48 object-cover rounded-t-lg" />
+          <div className="mt-4 text-2xl font-semibold text-gray-800">Abeka, Accra</div>
+          <div className="text-gray-500">GoldStar Hostel</div>
+          <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600">View Details</button>
+        </div>     
+        
       </div>
     </nav>
   );

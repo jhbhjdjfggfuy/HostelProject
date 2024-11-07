@@ -1,10 +1,11 @@
 import { AiOutlineHome, AiOutlineMail, AiOutlineInfoCircle, AiOutlineSearch } from 'react-icons/ai';
-import hostelImage from './hostel.jpg'; // Adjust the image path as necessary
+import hostelImage from './hostel.jpg'; 
 import './input.css'
+
 export default function Navbar() {
   return (
     <nav
-      className="relative bg-cover bg-center p-8 h-screen w-full"
+      className="relative bg-cover bg-center p-8 h-screen w-full "
       style={{ backgroundImage: `url(${hostelImage.src})`, backgroundSize: 'cover' }}
     >
       {/* Overlay for better text visibility */}
@@ -34,9 +35,9 @@ export default function Navbar() {
       </div>
 
       {/* Centered Search Bar with Icon */}
-      <div className="relative z-10 mt-8 flex justify-center mb-29">
-        <div className="relative w-full  max-w-5xl mb-29"> 
-        <input
+      <div className="relative z-10 flex justify-center items-center" style={{ marginTop: '25vh' }}>
+        <div className="relative w-full max-w-5xl"> 
+          <input
             type="text"
             placeholder="Search Hostel | Location | University"
             className="w-full px-12 py-4 rounded-full bg-white text-black focus:outline-none focus:ring-2 focus:ring-blue-500 text-lg"
@@ -50,9 +51,9 @@ export default function Navbar() {
       </div>
 
       {/* Large Text Below the Search */}
-      <div className="relative z-10 mt-8 mb-29 text-center text-5xl text-gray-300">
-        Find Your Preferred Hostel That  Best  Suits You Within 
-                        <h1> Accra</h1>    
+      <div className="relative z-10 mt-8 text-center text-5xl text-gray-300">
+        Find Your Preferred Hostel That Best Suits You Within 
+        <h1 className="mt-4"> Accra</h1>    
       </div>
     </nav>
   );
